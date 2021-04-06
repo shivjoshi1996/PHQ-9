@@ -65,13 +65,17 @@
 }
 
 .form-question-choice:hover{
-    background-color: #006d77;
+    background-color: #2b8d91;
     color: white;
 }
 
 .form-question-choice-active {
     background-color: #006d77;
     color: white;
+}
+
+.form-question-choice-active:hover {
+    background-color: #006d77;
 }
 
 .summary {
