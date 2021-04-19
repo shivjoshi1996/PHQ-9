@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #83c5be;
+    background-color: $primary-colour;
     padding-bottom: 3rem;
 }
 
 .form-criteria {
     position:sticky;
     top: 0;
-    background-color: #006d77;
-    color: white;
+    background-color: $primary-colour;
+    color: $main-font-colour;
 }
 
 .form-criteria-text-wrapper {
@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #83c5be;
+    background-color: $primary-colour;
     padding: 1rem 0.5rem;
     margin: 1rem 0rem 1rem 0rem;
 }
@@ -65,17 +65,16 @@
 }
 
 .form-question-choice:hover{
-    background-color: #2b8d91;
-    color: white;
+    background-color: $third-colour;
+    color: black;
 }
 
 .form-question-choice-active {
-    background-color: #006d77;
-    color: white;
+    background-color: white;
 }
 
 .form-question-choice-active:hover {
-    background-color: #006d77;
+    background-color: white;
 }
 
 .summary {
